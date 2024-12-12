@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+# Currículo Profissional - Ângelo Gabriel Medeiros
 
-## Project info
+## Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/08ec5844-5588-4cad-acec-cee77d0a2d18
+Este projeto apresenta meu currículo profissional, destacando minha formação e experiência em Análise e Desenvolvimento de Sistemas, complementada por uma formação técnica em Enfermagem que agrega valor único à minha atuação em tecnologia.
 
-## How can I edit this code?
+## Diferencial Profissional
 
-There are several ways of editing your application.
+Minha formação como Técnico em Enfermagem proporciona uma perspectiva única no desenvolvimento de sistemas, especialmente para:
+- Desenvolvimento de sistemas hospitalares e healthtech
+- Compreensão profunda das necessidades do setor de saúde
+- Capacidade de traduzir requisitos clínicos em soluções tecnológicas
+- Experiência com gestão de dados sensíveis e privacidade
 
-**Use Lovable**
+## Tecnologias Utilizadas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/08ec5844-5588-4cad-acec-cee77d0a2d18) and start prompting.
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
 
-Changes made via Lovable will be committed automatically to this repo.
+## Como Executar o Projeto
 
-**Use your preferred IDE**
+1. Clone o repositório
+```bash
+git clone https://github.com/medeirosangelo/curriculo
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Instale as dependências
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Execute o projeto
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Estrutura do Projeto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto está organizado em componentes React, cada um responsável por uma seção específica do currículo:
 
-**Use GitHub Codespaces**
+- `TechSection`: Apresenta formação e experiência em tecnologia
+- `HealthSection`: Demonstra como a formação em saúde agrega valor à carreira tech
+- `Header`: Informações de contato e apresentação inicial
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contribuições
 
-## What technologies are used for this project?
+Sugestões e contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-This project is built with .
+## Contato
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/08ec5844-5588-4cad-acec-cee77d0a2d18) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- Email: medeirosangelogabrieltrabalho@gmail.com
+- LinkedIn: https://www.linkedin.com/in/medeirosangelo
+- GitHub: https://github.com/medeirosangelo

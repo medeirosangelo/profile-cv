@@ -1,60 +1,65 @@
-import { Heart, Hospital, Stethoscope, User } from "lucide-react";
+import { Brain, Heart, Hospital, User } from "lucide-react";
 import { Card } from "./ui/card";
 
 export const HealthSection = () => {
   return (
     <section className="py-16 px-4 bg-gradient-to-r from-blue-50 to-indigo-50" id="health">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-heading font-bold text-slate-900 mb-8">
-          Perfil em Enfermagem
+        <h2 className="text-3xl font-heading font-bold text-slate-900 mb-4">
+          Formação Complementar em Saúde
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <p className="text-slate-600 mb-8 leading-relaxed">
+          Minha formação como Técnico em Enfermagem (COREN RR 001.937.924) proporciona uma perspectiva única 
+          no desenvolvimento de sistemas, especialmente na área de healthtech e sistemas hospitalares.
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card className="p-6 hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-              <Stethoscope className="text-blue-500" />
-              Formação
+              <Brain className="text-blue-500" />
+              Habilidades Transferíveis
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Técnico em Enfermagem - Instituto Projeção</li>
-              <li>Especialização em Instrumentação Cirúrgica (360 horas) - CETERR</li>
-              <li>Enfermagem em Saúde da Criança e do Adolescente (300 horas) - UNEPI</li>
-            </ul>
-          </Card>
-
-          <Card className="p-6 hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-              <Hospital className="text-blue-500" />
-              Experiência Hospitalar
-            </h3>
-            <ul className="space-y-2 text-slate-600">
-              <li>Hospital Lotty Iris - Estágio em Enfermagem (03/2022 - 08/2022)</li>
-              <li>CEHMO - Centro de Hemodiálise (06/2023 - 09/2023)</li>
-              <li>Hospital Cosme Silva (06/2023 - 09/2023)</li>
+              <li>Pensamento analítico e resolução de problemas complexos</li>
+              <li>Atenção meticulosa aos detalhes e documentação</li>
+              <li>Experiência em ambientes que exigem alta precisão</li>
             </ul>
           </Card>
 
           <Card className="p-6 hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
               <Heart className="text-blue-500" />
-              Especializações
+              Vantagens na Área Tech
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Sala de Vacinas - Instituto Projeção</li>
-              <li>Instrumentação Cirúrgica - Instituto Projeção</li>
-              <li>Diálise e Hemodiálise - Siscap Cursos</li>
+              <li>Compreensão profunda de sistemas hospitalares e fluxos de trabalho clínicos</li>
+              <li>Capacidade de traduzir necessidades médicas para soluções tecnológicas</li>
+              <li>Experiência prática em gestão de dados sensíveis de pacientes</li>
+            </ul>
+          </Card>
+
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
+              <Hospital className="text-blue-500" />
+              Áreas de Aplicação
+            </h3>
+            <ul className="space-y-2 text-slate-600">
+              <li>Desenvolvimento de sistemas para gestão hospitalar</li>
+              <li>Soluções de telemedicina e monitoramento remoto</li>
+              <li>Sistemas de gestão de dados clínicos e prontuários eletrônicos</li>
             </ul>
           </Card>
 
           <Card className="p-6 hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
               <User className="text-blue-500" />
-              Registro Profissional
+              Diferencial Profissional
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>COREN RR 001.937.924</li>
-              <li>Atuação em Cuidados Diretos ao Paciente</li>
-              <li>Monitoramento de Sinais Vitais</li>
+              <li>Visão holística do setor de saúde</li>
+              <li>Experiência em comunicação com profissionais de saúde</li>
+              <li>Conhecimento das necessidades reais dos usuários finais na área médica</li>
             </ul>
           </Card>
         </div>
