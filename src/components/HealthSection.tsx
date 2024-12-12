@@ -17,8 +17,8 @@ export const HealthSection = () => {
             </h3>
             <ul className="space-y-2 text-slate-600">
               <li>Técnico em Enfermagem - Instituto Projeção</li>
-              <li>Especialização em Instrumentação Cirúrgica</li>
-              <li>Enfermagem em Saúde da Criança e do Adolescente</li>
+              <li>Especialização em Instrumentação Cirúrgica (360 horas) - CETERR</li>
+              <li>Enfermagem em Saúde da Criança e do Adolescente (300 horas) - UNEPI</li>
             </ul>
           </Card>
 
@@ -28,9 +28,9 @@ export const HealthSection = () => {
               Experiência Hospitalar
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Hospital Lotty Iris - Estágio em Enfermagem</li>
-              <li>CEHMO - Centro de Hemodiálise</li>
-              <li>Hospital Cosme Silva</li>
+              <li>Hospital Lotty Iris - Estágio em Enfermagem (03/2022 - 08/2022)</li>
+              <li>CEHMO - Centro de Hemodiálise (06/2023 - 09/2023)</li>
+              <li>Hospital Cosme Silva (06/2023 - 09/2023)</li>
             </ul>
           </Card>
 
@@ -40,9 +40,9 @@ export const HealthSection = () => {
               Especializações
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Sala de Vacinas</li>
-              <li>Instrumentação Cirúrgica</li>
-              <li>Diálise e Hemodiálise</li>
+              <li>Sala de Vacinas - Instituto Projeção</li>
+              <li>Instrumentação Cirúrgica - Instituto Projeção</li>
+              <li>Diálise e Hemodiálise - Siscap Cursos</li>
             </ul>
           </Card>
 
