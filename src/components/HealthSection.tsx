@@ -1,3 +1,4 @@
+
 import { Brain, Heart, Hospital, User } from "lucide-react";
 import { Card } from "./ui/card";
 
@@ -11,7 +12,7 @@ export const HealthSection = () => {
         
         <p className="text-slate-600 mb-8 leading-relaxed">
           Minha formação como Técnico em Enfermagem (COREN RR 001.937.924) proporciona uma perspectiva única 
-          no desenvolvimento de sistemas, especialmente na área de healthtech e sistemas hospitalares.
+          no desenvolvimento de sistemas, especialmente para soluções na área de saúde digital (healthtech).
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -23,7 +24,7 @@ export const HealthSection = () => {
             <ul className="space-y-2 text-slate-600">
               <li>Pensamento analítico e resolução de problemas complexos</li>
               <li>Atenção meticulosa aos detalhes e documentação</li>
-              <li>Experiência em ambientes que exigem alta precisão</li>
+              <li>Capacidade de trabalhar sob pressão e tomar decisões críticas</li>
             </ul>
           </Card>
 
@@ -33,9 +34,9 @@ export const HealthSection = () => {
               Vantagens na Área Tech
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Compreensão profunda de sistemas hospitalares e fluxos de trabalho clínicos</li>
-              <li>Capacidade de traduzir necessidades médicas para soluções tecnológicas</li>
-              <li>Experiência prática em gestão de dados sensíveis de pacientes</li>
+              <li>Compreensão de terminologias médicas e fluxos de trabalho clínicos</li>
+              <li>Capacidade de traduzir necessidades da área de saúde para soluções tecnológicas</li>
+              <li>Conhecimento sobre requisitos de segurança e privacidade de dados sensíveis (LGPD para saúde)</li>
             </ul>
           </Card>
 
@@ -45,9 +46,9 @@ export const HealthSection = () => {
               Áreas de Aplicação
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Desenvolvimento de sistemas para gestão hospitalar</li>
-              <li>Soluções de telemedicina e monitoramento remoto</li>
-              <li>Sistemas de gestão de dados clínicos e prontuários eletrônicos</li>
+              <li>Desenvolvimento de sistemas para gestão hospitalar e clínica</li>
+              <li>Aplicações de telemedicina e monitoramento remoto de pacientes</li>
+              <li>Soluções de IA para diagnóstico e análise preditiva em saúde</li>
             </ul>
           </Card>
 
@@ -57,9 +58,9 @@ export const HealthSection = () => {
               Diferencial Profissional
             </h3>
             <ul className="space-y-2 text-slate-600">
-              <li>Visão holística do setor de saúde</li>
-              <li>Experiência em comunicação com profissionais de saúde</li>
-              <li>Conhecimento das necessidades reais dos usuários finais na área médica</li>
+              <li>Visão holística da interseção entre tecnologia e saúde</li>
+              <li>Comunicação eficaz com stakeholders da área médica</li>
+              <li>Conhecimento dos desafios reais enfrentados por profissionais de saúde</li>
             </ul>
           </Card>
         </div>

@@ -1,38 +1,24 @@
-import { Code2, Shield, Database } from "lucide-react";
+
+import { Code2, Database, Shield } from "lucide-react";
 import { Card } from "../ui/card";
 
 export const ProjectsSection = () => {
   return (
     <div>
       <h2 className="text-3xl font-heading font-bold text-slate-900 mb-8">
-        Projetos Relevantes
+        Projetos Acadêmicos e Profissionais
       </h2>
       <div className="space-y-4">
         <Card className="p-6 hover:shadow-lg transition-shadow">
           <div className="flex items-start gap-4">
-            <Shield className="text-blue-500 mt-1" size={24} />
-            <div>
-              <h3 className="text-xl font-bold mb-2">Sistema de Monitoramento de Segurança</h3>
-              <p className="text-slate-600">Projeto Full Stack com React e Node.js</p>
-              <ul className="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                <li>Dashboard em tempo real para monitoramento de ameaças</li>
-                <li>Integração com APIs de segurança e análise de logs</li>
-                <li>Implementação de autenticação OAuth2 e JWT</li>
-              </ul>
-            </div>
-          </div>
-        </Card>
-
-        <Card className="p-6 hover:shadow-lg transition-shadow">
-          <div className="flex items-start gap-4">
             <Database className="text-blue-500 mt-1" size={24} />
             <div>
-              <h3 className="text-xl font-bold mb-2">Análise de Dados em Tempo Real</h3>
-              <p className="text-slate-600">Sistema de Analytics com Python e AWS</p>
+              <h3 className="text-xl font-bold mb-2">Monitor Epidemiológico</h3>
+              <p className="text-slate-600">Sistema web para monitoramento e gestão epidemiológica municipal</p>
               <ul className="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                <li>Processamento de mais de 1 milhão de registros diários</li>
-                <li>Implementação de machine learning para detecção de anomalias</li>
-                <li>Visualização de dados com Grafana e Kibana</li>
+                <li>Tecnologias: React, TypeScript, PostgreSQL</li>
+                <li>Visualização de dados epidemiológicos em tempo real</li>
+                <li>Dashboards para tomada de decisão em saúde pública</li>
               </ul>
             </div>
           </div>
@@ -42,12 +28,27 @@ export const ProjectsSection = () => {
           <div className="flex items-start gap-4">
             <Code2 className="text-blue-500 mt-1" size={24} />
             <div>
-              <h3 className="text-xl font-bold mb-2">Automação com IA</h3>
-              <p className="text-slate-600">Projeto de Automação usando Python e TensorFlow</p>
+              <h3 className="text-xl font-bold mb-2">Sistema de Monitoramento Agrícola</h3>
+              <p className="text-slate-600">Plataforma web para acompanhamento de safras e diagnóstico de pragas</p>
               <ul className="list-disc list-inside text-slate-600 space-y-2 mt-2">
-                <li>Desenvolvimento de modelos de ML para automação de processos</li>
-                <li>Redução de 70% no tempo de processamento manual</li>
-                <li>Integração com sistemas legados via APIs RESTful</li>
+                <li>Tecnologias: React, TypeScript, PostgreSQL</li>
+                <li>Integração com sistemas de previsão meteorológica</li>
+                <li>Alertas automáticos para riscos de pragas</li>
+              </ul>
+            </div>
+          </div>
+        </Card>
+
+        <Card className="p-6 hover:shadow-lg transition-shadow">
+          <div className="flex items-start gap-4">
+            <Shield className="text-blue-500 mt-1" size={24} />
+            <div>
+              <h3 className="text-xl font-bold mb-2">SWGCM</h3>
+              <p className="text-slate-600">Sistema para gestão de contratos e monitoramento de produtividade</p>
+              <ul className="list-disc list-inside text-slate-600 space-y-2 mt-2">
+                <li>Tecnologias: Django, PostgreSQL, WebSocket</li>
+                <li>Autenticação multifator e controle de acesso baseado em papéis</li>
+                <li>Dashboards interativos para acompanhamento de KPIs</li>
               </ul>
             </div>
           </div>

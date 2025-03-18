@@ -1,3 +1,4 @@
+
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -9,7 +10,7 @@ export const Header = () => {
           Ângelo Gabriel Medeiros
         </h1>
         <p className="text-lg text-slate-600 mb-6 animate-fade-in">
-          Desenvolvedor de Sistemas & Técnico em Enfermagem
+          Desenvolvedor de Sistemas & Analista de Dados
         </p>
         <div className="flex flex-wrap gap-4 animate-fade-in">
           <Button
